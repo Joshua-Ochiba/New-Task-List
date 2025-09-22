@@ -1,0 +1,27 @@
+.todo-circle-orange{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: orange; /* Blue color */
+    margin-right: 8px;
+}
+
+.todo-circle-blue{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue; /* Blue color */
+    margin-right: 8px;
+}
+
+.todo-circle-green{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green; /* Blue color */
+    margin-right: 8px;
+}
+
+.sp{
+    padding: 10px;
+}

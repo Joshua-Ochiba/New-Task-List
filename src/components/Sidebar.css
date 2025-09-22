@@ -1,0 +1,36 @@
+.sidebar {
+  width: 240px;            
+  transition: width 0.3s ease; 
+  overflow: hidden;       
+}
+
+.sidebar.slid {
+  width: 79px;           
+}
+
+.slid-gone{
+    transition: display 0.3s ease;
+}
+
+.sidebar.slid .slid-gone{
+    display: none;
+}
+
+.slid-menu {
+  flex-shrink: 0;
+  min-width: 28px;
+  transition: all 0.5s ease;
+}
+
+
+.sidebar.slid .slid-menu{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sidebar.slid .header {
+  justify-content: center;
+
+  margin-left: -41px;
+}
